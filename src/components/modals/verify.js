@@ -12,7 +12,7 @@ module.exports = {
       let verified = new EmbedBuilder()
         .setTitle("✅ Verified")
         .setDescription(
-          `${interaction.user}, You completed the verification successfully, and you have been given access to **${interaction.guild.name}**!`
+          `${interaction.user}, You completed the verification successfully, and you have been given access to the **${interaction.guild.name}**!`
         )
         .setTimestamp()
         .setColor("Green")
