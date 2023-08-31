@@ -49,11 +49,11 @@ module.exports = {
       }, 3000);
 
       // Server Stats
-      setInterval(() => {
-        client.channels.cache
-          .get(client.config.serverStatsChannel)
-          ?.setName(`Total Members : ${guild.memberCount}`);
-      }, 60000);
+      // setInterval(() => {
+      //   client.channels.cache
+      //     .get(client.config.serverStatsChannel)
+      //     ?.setName(`Total Members : ${guild.memberCount}`);
+      // }, 60000);
     });
   },
 };
